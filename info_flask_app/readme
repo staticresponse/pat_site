@@ -1,1 +1,17 @@
-yredcuftriytttvbuyb
+Initial Environment settings
+
+1) use a venv from a directory. (use the below command to create the directory, enter it, and create the virtual environment)
+
+  mkdir /var/www/info_flask
+  cd /var/www/info_flask
+  python3 -m venv venv
+
+
+2) install the required packages. NOTE: the terminal on the pi should be something like username@ip (venv):
+    do all the below commands to download and initialize the flask packages
+
+    pip install flask
+    
+    
+    
+you can install additional packages later using pip install <package>
