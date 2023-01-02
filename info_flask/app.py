@@ -14,4 +14,4 @@ def homepage():
 @app.route("/secondpage")
 def anotherpage():
   #same concept applies here. add stuff here and pass it to a html template.
-  return render_template('homepage.html', title='Whats up')
+  return render_template('homepage.html', title='Nothing')
